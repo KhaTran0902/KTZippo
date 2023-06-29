@@ -1,0 +1,117 @@
+li{
+    list-style: none;
+    color: white;
+}
+
+.navbar {
+    line-height: 10vh;
+    height: 13vh;
+    box-shadow: rgba(50 ,50,93,0.23) 0 30px 30px -20px;
+    background-color: #212121;
+    position: sticky;
+    top:0;
+    left:0;
+    z-index: 99;
+}
+
+.img_logo img{
+  width: 10px;
+}
+
+.nav_links {
+     display: flex;
+     justify-content: flex-end;
+     width: 75%;
+     z-index: 999;
+
+}
+
+.navbar_container1{
+    width: 90%;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links li{
+    
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+.search-icon li svg{
+    cursor: pointer;
+}
+ button {
+    border: none;
+    background: none;
+    font-size: 20px;
+ }
+
+ .mobile-menu-icon{
+    display: none;
+ }
+ .mobile-menu-icon svg{
+    color:white;
+ }
+ .cart-icon span{
+    min-width: 20px;
+    text-align: center;
+    background-color: #8e2de2;
+    padding: 2.5px;
+    position: relative;
+    top:-8px;
+    left:-3px;
+    font-size: 18px;
+    line-height: 1;
+    border-radius: 10px;
+ }
+ @media (max-width: 768px){
+    .nav_links{
+        display: none;
+    }
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        box-shadow: rgba(50 ,50,93,0.23) 0 30px 30px -20px ;
+        left:0;
+        top:100%;
+        transition: all 2s ease-in-out;
+        width: 100%;
+        background-color: #212121;
+        animation: shownav 0.5s ease forwards ;
+    }
+    ul li{
+        padding: 22px;
+        width: 100%;
+        font-size: 18px;
+        transition: all 0.5s ease-in-out;
+        text-align: center;
+    }
+    .mobile-menu-icon{
+        position: absolute;
+        display: block;
+        right: 20px;
+        transition: all 0.5s ease-in-out;
+    }
+    svg{
+
+        margin: 0 auto;
+        font-size: 20px;
+    }
+ }
+
+ @keyframes shownav {
+    0% {
+        transform: translateY(-50%);
+      }
+      100% {
+        transform: translateY(0%);
+      }
+ }
