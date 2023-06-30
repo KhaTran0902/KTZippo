@@ -1,85 +1,77 @@
-.contact__container{
-    width: 100%;
-    height: auto;
-    display: flex;
-    
-    align-items: center;
-    flex-direction: column;
-    
+.contact__container {
+  width: 100%;
+  height: auto;
+  display: flex;
+
+  align-items: center;
+  flex-direction: column;
 }
-.contact__map{
-    width: 80%;
-    height:auto;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.contact__map {
+  width: 80%;
+  height: auto;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.map{
-    width: 100%;
+.map {
+  width: 100%;
 }
-.contact__lh{
-    width: 100%;
-   
-   
+.contact__lh {
+  width: 100%;
 }
 
+.contact__contain {
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 
-.contact__contain{
-    width: 80%;
-    height: auto;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
+  padding: 20px;
+  margin: 0 auto;
+  background: #cacaca;
+}
+.contact__form h1 {
+  font-weight: 10;
+  font-size: 30px;
+}
+.contact__form {
+  margin-top: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
 
-    padding: 20px;
-    margin: 0 auto;
-    background: #cacaca;   
-    
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+  padding: 30px;
 }
-.contact__form h1{
-    font-weight: 10;
-    font-size: 30px;
-}
-.contact__form{
-    margin-top: 5px;
-    border-radius: 5px;
-    margin-bottom: 5px;
-   
-    width: 70%;
-    height: auto;
-    display: flex;
-    flex-direction: column ;
-    /* align-items: center; */
-   
-    padding: 30px;
-    
-}
-.contact__form .message{
-    border: 1px solid #ccc;
-    outline: none;
-    border-radius: 10px;
-    width: 80%;
+.contact__form .message {
+  border: 1px solid #ccc;
+  outline: none;
+  border-radius: 10px;
+  width: 80%;
 }
 /* .contact__form h1{
     margin-top: 10px;
 } */
-.contact__form label{
-   
-    margin-top: 5px;
+.contact__form label {
+  margin-top: 5px;
 }
-.contact__form input{
-    width: 80%;
-    height: 40px;
-    margin-top: 10px;
-    border: none;
-    border-bottom: 1px solid #121619;
-   color: black;
-    
+.contact__form input {
+  width: 80%;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
 }
-.contact__form .message{
+.contact__form .message {
   margin-top: 15px;
   height: 70px;
   border: none;
@@ -95,30 +87,75 @@ form input:focus,
 textarea:focus {
   outline: none;
 }
-.contact__btn{
-    width: 30%;
-    margin-top: 10px;
-    padding: 5px 30px;
-    border: none;
-    border-radius: 10px;
-    background-color: red;
-    transition: all 0.5s ease-out;
+.contact__btn {
+  width: 30%;
+  margin-top: 10px;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  transition: all 0.5s ease-out;
 }
-.contact__btn:hover{
-    transform: scale(1.1);
+.contact__btn:hover {
+  transform: scale(1.1);
 }
-.contact__get__in__touch{
-    width: 50%;
-    margin: 20px auto;
-    font-size: 20px;
-    
+.contact__get__in__touch {
+  width: 50%;
+  margin: 20px auto;
+  font-size: 20px;
 }
 
-.c-item__contact{
-    display: flex;
-    margin-top: 20px;
-    
+.c-item__contact {
+  display: flex;
+  margin-top: 20px;
 }
-@media screen and (max-width:600px) {
-   
+@media screen and (max-width: 600px) {
+    .contact__map{
+        width: 100%;
+    }
+  .contact__contain {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact__form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact__form input {
+    border: none;
+    outline: none;
+  }
+  .contact__form h1 {
+    text-align: center;
+  }
+  .contact__btn {
+    text-align: center;
+    padding: 10px 20px;
+  }
+ .contact__get__in__touch{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   margin: 0 auto;
+ }
+  .contact__get__in__touch h1{
+    text-align: center;
+  }
+  .col__contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    margin: 0 auto;
+    
+    
+    
+  }
 }
