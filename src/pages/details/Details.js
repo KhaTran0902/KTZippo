@@ -5,6 +5,7 @@ import "./Details.scss";
 import { FaFacebookF, FaInstagram, FaCartPlus } from "react-icons/fa";
 import Realated from "./related/Related";
 import Related from "./related/Related";
+import swal from 'sweetalert';
 export default function Details() {
   const { id } = useParams();
   const value = useContext (ConText)
@@ -66,7 +67,14 @@ export default function Details() {
                     <span>{quantity}</span>
                     <span onClick={increment}>+</span>
                   </div>
-                  <div className="add-to-cart-button" onClick={() => handleAddToCart(product.id)}>
+                  <div className="add-to-cart-button" onClick={() =>{
+                      swal({
+                    title: "Done!",
+                    text: "Successfully added to cart !",
+                    icon: "success",
+                  });
+                  handleAddToCart(product.id)
+                  } }>
                     <FaCartPlus size={20} />
                     <p> ADD TO CART</p>
                 </div>

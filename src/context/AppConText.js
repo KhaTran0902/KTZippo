@@ -21,6 +21,8 @@ import zip19 from "../assets/zip19.png";
 import zip20 from "../assets/zip20.png";
 import zip21 from "../assets/zip21.png";
 import AOS from "aos"
+import 'aos/dist/aos.css'
+
 export const ConText = createContext();
 
 const AppConText = ({ children }) => {
@@ -316,7 +318,7 @@ const AppConText = ({ children }) => {
 
 // scroll animation
   useEffect(() => {
-    AOS.init({ duration: 2500 });
+    AOS.init({ duration: 2000 });
   }, []);
   
 // filter 

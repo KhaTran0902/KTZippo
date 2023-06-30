@@ -27,9 +27,9 @@ export default function Header() {
       setScrolled(false);
     }
   };
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener("scroll", handleScroll);
+  // }, []);
   
    
 
