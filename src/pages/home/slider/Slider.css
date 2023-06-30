@@ -1,0 +1,50 @@
+
+.slick-prev::before,
+.slick-next::before{
+    color:#000;
+    font-size: 30px;
+    
+}
+/* .slick-side {
+    margin: 0 10px;
+}
+.slick-list{
+    margin: 0 10px;
+} */
+
+.slick-slide > div {
+    margin: 0 5px;
+}
+.slick-list{
+    margin: 0 25px;
+}
+.slider{
+    /* height: 400px;
+    
+    border: 1px solid #000;
+    background: red;
+    border-radius: 8px;
+    overflow: hidden; */
+    width: 80%;
+    margin: 0 auto;
+
+   margin-bottom: 60px;
+   
+}
+.slider__content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+    
+    
+}
+
+.slider img {
+    width: 80%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 20px;
+}
