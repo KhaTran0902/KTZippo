@@ -19,6 +19,9 @@ import zip18 from "../../assets/zip18.png"
 import zip19 from "../../assets/zip19.png"
 import zip20 from "../../assets/zip20.png"
 import zip21 from "../../assets/zip21.png"
+import zip22 from "../../assets/zip22.png"
+import zip23 from "../../assets/zip23.png"
+import zip24 from "../../assets/zip24.png"
  export const Data = [
   {
     id: "05",
@@ -259,6 +262,195 @@ export const Uni = [
       "Graffiti đang đi từ đường phố đến bật lửa chống gió yêu thích của bạn. Thiết kế nghệ thuật này miêu tả một bàn tay đưa ra dấu hiệu hòa bình, đã được chụp ảnh màu trên bật lửa Iron Stone gồ ghề, giống như nghệ thuật đường phố trên một bức tường đá. Đi kèm đóng gói trong một hộp quà tặng. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu nhẹ hơn Zippo.      ",
     height: "2.25″ ",
     width: "0.5″",
+    count: 1,
+  },
+]
+
+export const Premium =[
+  {
+    id: "10",
+    title: "18 Kt.gold",
+    title1: "Premium Zippo",
+
+    price: 200.033,
+    img: zip10,
+    content:
+      "Đó là niềm đam mê tột bậc. Với sự sang trọng tinh tế, chiếc bật lửa chống gió Zippo này với vỏ vàng nguyên khối 18kt cho cảm giác chắc chắn, trông đáng kể và hoàn toàn tuyệt đẹp. Bao gồm một miếng lót bật lửa mạ vàng và hộp quà quả thủ công tùy chỉnh với giấy chứng nhận đăng ký.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+  {
+    id: "11",
+    title: "Bimetall (Copper Bottom)",
+    title1: "Premium Zippo",
+    price: 300.0,
+    img: zip11,
+    content:
+      "Tiếp nối thành công của chương trình Vỏ đồng rắn, Zippo rất vui mừng lần đầu tiên giới thiệu bật lửa Bimetal Case. Được xây dựng bằng cả đồng nguyên khối và bạc sterling rắn và được đánh bóng cao, màn trình diễn tuyệt đẹp này đánh dấu bước đột phá thứ hai của Zippo vào các trường hợp hybrid trong lịch sử của nó - lần đầu tiên là chạy thử nghiệm cực kỳ hạn chế vào năm 2007.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+  {
+    id: "12",
+    title: "Luxury Diamond Design",
+    title1: "Premium Zippo",
+    price: 230.0,
+    img: zip12,
+    content:
+      "Các lớp kết cấu bao bọc tấm vàng Armor® High Polish Gold Plate này Quy trình khắc MultiCut 360 ° của Zippo tạo ra một mô hình thanh lịch của kim cương và các đường nét rạng rỡ, với sự hoàn thiện của hình dạng kim cương chứa đầy epoxy màu đỏ mờ được đặt vào bên cạnh bật lửa Một miếng mạ vàng tôn vinh và hoàn thiện vẻ ngoài cao cấp và bao bì sang trọng làm nổi bật thiết kế bọc. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu nhẹ hơn Zippo.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+  {
+    id: "13",
+    title: "Currency Design",
+    title1: "Premium Zippo",
+    price: 210.0,
+    img: zip13,
+    content:
+      "Một khoản đầu tư được đảm bảo để duy trì sự vững chắc. Thiết kế lấy cảm hứng từ tiền điện tử toát lên sự sang trọng trên tất cả các mặt của chiếc bật lửa Armor® High Polish Gold này nhờ quy trình MultiCut Deep Carve của chúng tôi. Đi kèm đóng gói trong một hộp quà tặng. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu nhẹ hơn Zippo.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+  {
+    id: "14",
+    title: "Armor® Tree of Life",
+    title1: "Premium Zippo",
+    price: 97.0,
+    img: zip14,
+    content:
+      "Thiết kế MultiCut hài hòa này được đặt trên bật lửa Armor® Antique Silver có Cây Sự sống, kết nối mọi sinh vật sống, quá khứ, hiện tại và tương lai với Trái đất. Bông hoa sự sống, một trong những ví dụ sớm nhất về hình học thiêng liêng, đại diện cho mối liên hệ vĩnh cửu giữa không gian và thời gian được thể hiện ở mặt sau của chiếc bật lửa này. Bao bì sang trọng cho thấy các yếu tố góc lấy cảm hứng từ Art Nouveau bọc ở hai bên bật lửa cho phép xem rõ hơn các chi tiết nhẹ hơn này. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu nhẹ hơn Zippo.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+  {
+    id: "15",
+    title: "Armor® High Polish Blue Diamonds",
+    title1: "Premium Zippo",
+    price: 115.0,
+    img: zip15,
+    content:
+      "Các phương pháp điều trị chạm khắc sâu và MultiCut rực rỡ trên chiếc bật lửa đánh bóng cao này, thêm nhiều tia sáng màu sắc rực rỡ hơn. Chiếc bật lửa Armor® High Polish Blue này đã được chạm khắc sâu ở mặt trước và mặt sau, tạo ra một hoa văn kim cương jacquard thanh lịch. Đi kèm đóng gói trong một hộp quà tặng. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu nhẹ hơn Zippo.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+  {
+    id: "16",
+    title: "Armor® Fleur-de-lis Design",
+    title1: "Premium Zippo",
+    price: 140.25,
+    img: zip16,
+    content:
+      "Biểu tượng Fleur-De-Lis biểu thị cuộc sống, ánh sáng và sự hoàn hảo. Dựa trên hoa huệ truyền thống, biểu tượng này đã được khắc xung quanh bật lửa Tấm vàng Ba Lan cao bằng quy trình MultiCut. Vòng tròn màu xanh lá cây ở trung tâm của bông hoa mang lại một màu sắc nổi bật cho thiết kế bằng phương pháp khảm epoxy. Bao bì sang trọng cho phép xem nhiều hơn các chi tiết thiết kế MultiCut, cho phép thiết kế cao cấp này nổi bật trong đám đông. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu nhẹ hơn Zippo.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+  {
+    id: "17",
+    title: "Founder's Day Collectible",
+    title1: "Premium Zippo",
+    price: 120.0,
+    img: zip17,
+    content:
+      "Xây dựng sản phẩm của bạn với sự chính trực, đứng đằng sau nó 100%, và thành công sẽ theo sau. Lời khuyên đơn giản này, được đưa ra bởi người sáng lập Zippo George G. Blaisdell, đã hướng dẫn sự cống hiến của Zippo về chất lượng và dịch vụ kể từ khi thành lập vào năm 1932 - và là lý do chính khiến Zippo vẫn là một trong những thương hiệu được yêu thích nhất trên thế giới hiện nay.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+  {
+    id: "18",
+    title: "SunBeam Pendant",
+    title1: "Premium Zippo",
+    price: 76.5,
+    img: zip18,
+    content:
+      "Chiếc bật lửa Armor® High Polish Brass này duyên dáng nắm bắt vẻ đẹp của mặt trời trên mặt nước thanh bình trong thiết kế Deep Carve hai mặt sang trọng. Đi kèm đóng gói trong một hộp quà tặng. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu nhẹ hơn Zippo.",
+    height: "2.25″ ",
+    width: "0.5″",
+    count: 1,
+  },
+]
+
+export const Unitity = [
+  {
+    id: "19",
+    title: "Rechargeable Candle Lighter",
+    title1: "Utility",
+    price: 25.45,
+    img: zip19,
+    content:
+      "Bật lửa nến có thể sạc lại mới của Zippo không cần nạp lại và không cần butan. Bật lửa chùm tia đơn cung cấp hồ quang chống gió và có thể dễ dàng sạc lại bằng dây sạc đi kèm. Đi kèm đóng gói trong một hộp.",
+    height: "10.2″ ",
+    width: " 0.85″",
+    count: 1,
+  },
+
+  {
+    id: "20",
+    title: "Flex Neck XL Utility Lighter",
+    title1: "Utility",
+    price: 24.45,
+    img: zip20,
+    content:
+      "Its bendable 13” neck, dual flame and all metal construction gives you the power and flexibility to fit into tight spots and flame through stiff winds. They’re great for lighting camping stoves, lanterns, water heaters, candles, BBQ grills and more. Comes packaged in a blister pack.",
+    height: " 19.5″",
+    width: "1.2″",
+    count: 1,
+  },
+
+  {
+    id: "21",
+    title: "Flex Neck Utility Lighter",
+    title1: "Utility",
+    price: 21.95,
+    img: zip21,
+    content:
+      "Không có cách nào tốt hơn để bắt đầu đám cháy trong một cơn gió mạnh. Công nghệ ngọn lửa kép giữ cho ngọn lửa cháy mạnh và cổ linh hoạt định vị chính xác nhiệt theo bất kỳ hướng nào. Đầu khổ hẹp đủ nhỏ để tiếp cận các điểm chật hẹp trong đèn lồng và bếp cắm trại. Chúng rất tuyệt vời để thắp nến, vỉ nướng BBQ và hơn thế nữa. Cứng cáp, tất cả đều được xây dựng bằng kim loại. Cổ Flex này không được lấp đầy. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu butan Zippo. Đi kèm đóng gói trong một vỉ.",
+    height: " 19.5″",
+    width: "1.2″",
+    count: 1,
+  },
+  {
+    id: "22",
+    title: "Candle Lighter & Candle Set",
+    title1: "Utility",
+    price: 29.95,
+    img: zip22,
+    content:
+      "The perfect holiday or hostess gift, this Zippo Mini Flex Neck Candle Lighter co-pack includes an unfilled Rose Gold Mini Flex Neck Candle Lighter an 18 ml Zippo butane fuel, and three premium candles made by Northern Lights Candles. Votive candles, like the ones included in this set, are among the most popular for both gifting and personal use. Comes packaged in a gift box.",
+    height: " 19.5″",
+    width: "1.2″",
+    count: 1,
+  },
+  {
+    id: "23",
+    title: "Pebble Rechargeable Candle Lighter",
+    title1: "Utility",
+    price: 29.95,
+    img: zip23,
+    content:
+      "The perfect holiday or hostess gift, this Zippo Mini Flex Neck Candle Lighter co-pack includes an unfilled Rose Gold Mini Flex Neck Candle Lighter an 18 ml Zippo butane fuel, and three premium candles made by Northern Lights Candles. Votive candles, like the ones included in this set, are among the most popular for both gifting and personal use. Comes packaged in a gift box.",
+    height: " 19.5″",
+    width: "1.2″",
+    count: 1,
+  },
+  {
+    id: "24",
+    title: "Pebble Rechargeable Candle Lighter ",
+    title1: "Utility",
+    price: 29.95,
+    img: zip24,
+    content:
+      "The perfect holiday or hostess gift, this Zippo Mini Flex Neck Candle Lighter co-pack includes an unfilled Rose Gold Mini Flex Neck Candle Lighter an 18 ml Zippo butane fuel, and three premium candles made by Northern Lights Candles. Votive candles, like the ones included in this set, are among the most popular for both gifting and personal use. Comes packaged in a gift box.",
+    height: " 19.5″",
+    width: "1.2″",
     count: 1,
   },
 ]

@@ -4,25 +4,36 @@
   background: #6a11cb;
 
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(
-    to right,
-    rgba(106, 17, 203, 1),
-    rgba(37, 117, 252, 1)
-  );
-
+  // background: -webkit-linear-gradient(
+  //   to right,
+  //   rgba(106, 17, 203, 1),
+  //   rgba(37, 117, 252, 1)
+  // );
+  background:linear-gradient(#e5ccc3, #6047df) ;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(
-    to right,
-    rgba(106, 17, 203, 1),
-    rgba(37, 117, 252, 1)
-  );
+  // background: linear-gradient(
+  //   to right,
+  //   rgba(106, 17, 203, 1),
+  //   rgba(37, 117, 252, 1)
+  // );
+ 
 }
+.cart__background{
+  background-image: url(https://img.freepik.com/free-vector/online-shopping-banner-with-3d-shopping-cart-clouds-social-icons-vector-illustration_548887-100.jpg?w=1800&t=st=1688141515~exp=1688142115~hmac=6859d9bb20a83beaadfd7d5c1f684ce4286e7c63d2fbf88aa28c3a622617d365);
+  background-repeat: no-repeat;
 
-.cart-empty {
+  background-size: 100%;
+ 
+  height: 160px;
+  @include md{
+    height: 650px;
     
+  }
+}
+.cart-empty {
   @include md {
     display: flex;
-    align-items:center;
+    align-items: center;
     width: calc(80% / 2);
     text-align: center;
     justify-content: center;
@@ -34,6 +45,7 @@
     height: 300px;
     margin: 0 auto;
     display: flex;
+
     @include md {
       width: 500px;
       height: 500px;
@@ -48,7 +60,6 @@
     font-size: 15px;
     margin: 20px auto;
     @include md {
-       
       font-size: 18px;
       line-height: 30px;
     }
@@ -82,15 +93,58 @@
     }
   }
 }
-
+.cart__img_themes {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  @include md{
+    height: 300px;
+    width: 100%;
+  }
+  .img__cart {
+    
+    height: 230px;
+    width: 140px;
+   
+    @include md {
+      width: 150px;
+      height: 250px;
+    }
+  }
+ 
+  
+}
+.title__cart {
+  text-align: center;
+  @include md {
+    text-align: left;
+  }
+}
 .cart__count_quantity {
   display: flex;
   flex-direction: column;
 
   justify-content: center;
+  .btn__cart__increas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    width: 5px;
+    height: 35px;
+  }
+  .fas {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .count__cart {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
   }
 }

@@ -6,7 +6,7 @@ import {
 import "./Newsletter.scss"
 const NewsLetter = () => {
      return (
-        <div className="newsletter-section"   data-aos="fade-up">
+        <div className="newsletter-section"  /* data-aos="fade-up"*/>
             <div className="newsletter-content">
                 <span className="small-text">Newsletter</span>
                 <span className="big-text">Sign up for lates updates and offers</span>                

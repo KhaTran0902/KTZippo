@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="content">
             <div className="text-content">
                 <h1>SALES</h1>
-                <p>Sắp ra mắt</p>
+                <p>7/7/2023</p>
                 <div className="ctas">
                     <div className="banner-cta"> Read More</div>
                     <div className="banner-cta v2"> Shop Now</div>

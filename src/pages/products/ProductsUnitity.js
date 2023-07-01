@@ -1,13 +1,13 @@
 import React from "react";
-import { Uni } from "../../components/fetchdata/Data";
+import {  Unitity } from "../../components/fetchdata/Data";
 import { Link } from "react-router-dom";
-export default function ProductsUni () {
+export default function ProductsUnitity () {
     return (
         <div className="category-main-content">
       <div className="layout">
       <div className="banner1__banners1">
         <img
-          src="https://zippo.vn/wp-content/uploads/2022/07/Zippo-Lighters-Made-in-USA.png"
+          src="https://www.zippo.com/cdn/shop/collections/UtilityLightersCollection_2030x648.jpg?v=1666620331"
           alt
         />
       </div>
@@ -15,7 +15,7 @@ export default function ProductsUni () {
         <div className="products-container">
           <div className="sec-heading">Universal Zippo</div>
           <div className="products">
-            {Uni.map((product) => (
+            {Unitity.map((product) => (
               <div className="products-card" key={product.id}>
                 <div className="thumbnail">
                   <Link to={`/products/${product.id}`}>

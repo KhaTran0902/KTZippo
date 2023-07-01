@@ -60,6 +60,7 @@ export default function Cart() {
 
   return (
     <div>
+     
       {cart.length < 1 && (
         <div className="cart-empty">
           <img src={cartempty} alt="" className="cart-empty-img" />
@@ -79,32 +80,35 @@ export default function Cart() {
         </div>
       )}
       {cart.length > 0 && (
+        
         <section className="h-100 gradient-custom">
+           <div className="cart__background"></div>
           <div className="container py-5">
             <div className="row d-flex justify-content-center my-4">
               <div className="col-md-8">
                 <div className="card mb-4">
                   <div className="card-header py-3">
-                    <h5 className="mb-0">Cart items</h5>
+                    <h5 className="mb-0">Cart items: {cart.length}</h5>
                   </div>
                   <div className="card-body">
                     {cart?.map((data) => (
                       <div className="row" key={data.id}>
                         <div className="col-lg-3 col-md-12 mb-4 mb-lg-0">
                           <div
-                            className="bg-image hover-overlay hover-zoom ripple rounded"
+                            className="cart__img_themes bg-image hover-overlay hover-zoom ripple rounded"
                             data-mdb-ripple-color="light"
+
                           >
                             <img
                               src={data.img}
-                              className="w-100"
+                              className=" img__cart"
                               alt="Blue Jeans Jacket"
                             />
                           </div>
                         </div>
 
                         <div className="col-lg-5 col-md-6 mb-4 mb-lg-0">
-                          <p>
+                          <p className="title__cart">
                             <strong>{data.title}</strong>
                           </p>
 
@@ -125,18 +129,19 @@ export default function Cart() {
                             style={{ maxWidth: "300px" }}
                           >
                             <button
-                              className="btn btn-primary px-3 me-2"
+                              className="btn btn-primary px-3 me-2 btn__cart__increas"
                               onClick={() => reduction(data.id)}
                             >
                               <i className="fas fa-minus"></i>
                             </button>
 
                             <div className="count__cart form-outline text-start text-md-center">
+                              <span className="cart__count__quantity">Quantity</span>
                               <span className="cart_count">{data.count}</span>
                             </div>
 
                             <button
-                              className="btn btn-primary px-3 ms-2"
+                              className="btn btn-primary px-3 ms-2 btn__cart__increas"
                               onClick={() => increase(data.id)}
                             >
                               <i className="fas fa-plus"></i>
@@ -152,7 +157,32 @@ export default function Cart() {
                     ))}
                   </div>
                 </div>
+                <div class="card mb-4">
+          <div class="card-body">
+            <p><strong>Expected shipping delivery</strong></p>
+            <p class="mb-0">12.10.2020 - 14.10.2020</p>
+          </div>
+        </div>
+        <div class="card mb-4 mb-lg-0">
+          <div class="card-body">
+            <p><strong>We accept</strong></p>
+            <img class="me-2" width="45px"
+              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+              alt="Visa" />
+            <img class="me-2" width="45px"
+              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+              alt="American Express" />
+            <img class="me-2" width="45px"
+              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+              alt="Mastercard" />
+            <img class="me-2" width="45px"
+              src="https://mdbcdn.b-cdn.net/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.png"
+              alt="PayPal acceptance mark" />
+          </div>
+        </div>
               </div>
+              
+      
               <div className="col-md-4">
                 <div className="card mb-4">
                   <div className="card-header py-3">

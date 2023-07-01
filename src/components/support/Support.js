@@ -10,7 +10,7 @@ export default function Support() {
             <BsFillTelephoneFill />
           </div>
           <div className="support__content">
-            <strong>TƯ VẤN SẢN PHẨM</strong>
+            <strong>PRODUCT CONSULTING</strong>
             <span>039.5678.343</span>
           </div>
         </div>
@@ -19,7 +19,7 @@ export default function Support() {
             <FaCcAmazonPay />
           </div>
           <div className="support__content">
-            <strong>HỔ TRỢ THANH TOÁN</strong>
+            <strong>SUPPORT PAYMENT</strong>
             <span>COD/Online</span>
           </div>
         </div>
@@ -28,8 +28,8 @@ export default function Support() {
             <FaTruckMoving />
           </div>
           <div className="support__content">
-            <strong>GIAO HÀNG</strong>
-            <span>Giao hàng tận nơi 24/7</span>
+            <strong>DELIVERY</strong>
+            <span>24/7 delivery</span>
           </div>
         </div>
         <div className="support__item">
@@ -37,8 +37,8 @@ export default function Support() {
             <FaShopify />
           </div>
           <div className="support__content">
-            <strong>BẢO HÀNH</strong>
-            <span>Bảo hành trọn đời</span>
+            <strong>GUARANTEE</strong>
+            <span>Lifetime warranty</span>
           </div>
         </div>
       </div>

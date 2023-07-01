@@ -17,11 +17,16 @@ export default function Category() {
         </div>
 
         <div className="category">
+          <Link to="/products/premium">
           <img src={category1} alt="" />
+          
+          </Link>
           <div className="category_title">Premium Zippo</div>
         </div>
         <div className="category">
+        <Link to="/products/unitity">
           <img src={category2} alt="" />
+          </Link>
           <div className="category_title">Utility</div>
         </div>
       </div>

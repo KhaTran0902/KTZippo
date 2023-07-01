@@ -11,6 +11,8 @@ import Wrapper from "./components/Wrapper";
 import ProductsUni from "./pages/products/ProductsUni";
 import Support from "./components/support/Support";
 import Contact from "./pages/contact/Contact";
+import ProductsPremium from "./pages/products/ProductsPremium";
+import ProductsUnitity from "./pages/products/ProductsUnitity";
 
 function App() {
   return (
@@ -24,7 +26,9 @@ function App() {
           <Route path="/contact" element={<Contact/>}/>
           <Route path="/products/:id" element={<Details />} />
           <Route path="products/uni" element= {<ProductsUni/>}/>
-          <Route path="/cart" element={<Cart />} />
+          <Route path="products/premium" element={<ProductsPremium/>}/>
+          <Route path="products/unitity" element={<ProductsUnitity/>}/>
+         <Route path="/cart" element={<Cart />} />
         </Routes>
         <Support/>
       <NewsLetter />

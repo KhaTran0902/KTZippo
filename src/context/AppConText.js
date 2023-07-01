@@ -20,6 +20,9 @@ import zip18 from "../assets/zip18.png";
 import zip19 from "../assets/zip19.png";
 import zip20 from "../assets/zip20.png";
 import zip21 from "../assets/zip21.png";
+import zip22 from "../assets/zip22.png";
+import zip23 from "../assets/zip23.png";
+import zip24 from "../assets/zip24.png";
 import AOS from "aos"
 import 'aos/dist/aos.css'
 
@@ -280,6 +283,42 @@ const AppConText = ({ children }) => {
       img: zip21,
       content:
         "Không có cách nào tốt hơn để bắt đầu đám cháy trong một cơn gió mạnh. Công nghệ ngọn lửa kép giữ cho ngọn lửa cháy mạnh và cổ linh hoạt định vị chính xác nhiệt theo bất kỳ hướng nào. Đầu khổ hẹp đủ nhỏ để tiếp cận các điểm chật hẹp trong đèn lồng và bếp cắm trại. Chúng rất tuyệt vời để thắp nến, vỉ nướng BBQ và hơn thế nữa. Cứng cáp, tất cả đều được xây dựng bằng kim loại. Cổ Flex này không được lấp đầy. Để có hiệu suất tối ưu, hãy đổ đầy nhiên liệu butan Zippo. Đi kèm đóng gói trong một vỉ.",
+      height: " 19.5″",
+      width: "1.2″",
+      count: 1,
+    },
+    {
+      id: "22",
+      title: "Candle Lighter & Candle Set",
+      title1: "Utility",
+      price: 29.95,
+      img: zip22,
+      content:
+        "The perfect holiday or hostess gift, this Zippo Mini Flex Neck Candle Lighter co-pack includes an unfilled Rose Gold Mini Flex Neck Candle Lighter an 18 ml Zippo butane fuel, and three premium candles made by Northern Lights Candles. Votive candles, like the ones included in this set, are among the most popular for both gifting and personal use. Comes packaged in a gift box.",
+      height: " 19.5″",
+      width: "1.2″",
+      count: 1,
+    },
+    {
+      id: "23",
+      title: "Pebble Rechargeable Candle Lighter",
+      title1: "Utility",
+      price: 29.95,
+      img: zip23,
+      content:
+        "The perfect holiday or hostess gift, this Zippo Mini Flex Neck Candle Lighter co-pack includes an unfilled Rose Gold Mini Flex Neck Candle Lighter an 18 ml Zippo butane fuel, and three premium candles made by Northern Lights Candles. Votive candles, like the ones included in this set, are among the most popular for both gifting and personal use. Comes packaged in a gift box.",
+      height: " 19.5″",
+      width: "1.2″",
+      count: 1,
+    },
+    {
+      id: "24",
+      title: "Pebble Rechargeable Candle Lighter ",
+      title1: "Utility",
+      price: 29.95,
+      img: zip24,
+      content:
+        "The perfect holiday or hostess gift, this Zippo Mini Flex Neck Candle Lighter co-pack includes an unfilled Rose Gold Mini Flex Neck Candle Lighter an 18 ml Zippo butane fuel, and three premium candles made by Northern Lights Candles. Votive candles, like the ones included in this set, are among the most popular for both gifting and personal use. Comes packaged in a gift box.",
       height: " 19.5″",
       width: "1.2″",
       count: 1,
