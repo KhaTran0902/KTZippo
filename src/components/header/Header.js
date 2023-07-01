@@ -37,7 +37,10 @@ export default function Header() {
     <nav className={`navbar ${scrolled ? "sticky-header" : " "} `}>
       <div className="navbar_container1">
         <div className="img__logo">
+          <Link to="/">
           <img src={logo} alt="" width="100px" />
+          </Link>
+  
         </div>
 
         <ul

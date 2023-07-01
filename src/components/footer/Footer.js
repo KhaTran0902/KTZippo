@@ -7,8 +7,9 @@ import {
   FaMobile,
   FaMobileAlt,
 } from "react-icons/fa";
-import payments from  "../../assets/payments.png"
-import  "./Footer.scss";
+import payments from "../../assets/payments.png";
+import "./Footer.scss";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -19,7 +20,7 @@ const Footer = () => {
             In Vietnam, Zippo lighters were known through the wars, through
             these periods Zippo lighters followed the baggage with hundreds of
             thousands of American soldiers imported into Vietnam, and from here
-            the Zippo brand was known. 
+            the Zippo brand was known.
             {/* . Since the US lifted the embargo on */}
             {/* Vietnam and normalized relations between the two countries in 1994,
             after 5 years of research and market exploration, Zippo officially
@@ -39,37 +40,41 @@ const Footer = () => {
           </div>
           <div className="c-item">
             <FaMobileAlt />
-            <div className="text">
-             Phone: 039.5678.343
-            </div>
+            <div className="text">Phone: 039.5678.343</div>
           </div>
-          
+
           <div className="c-item">
             <FaEnvelope />
-            <div className="text">
-              Email: Khatran090201@gmail.com
-            </div>
+            <div className="text">Email: Khatran090201@gmail.com</div>
           </div>
         </div>
         <div className="col">
-            <div className="title"> Categories</div>
-            <span className="text">Universal Zippo</span>
-            <span className="text">Premium Zippo</span>
-            <span className="text">Utility</span>
+          <div className="title"> Categories</div>
+          <span className="text">Universal Zippo</span>
+          <span className="text">Premium Zippo</span>
+          <span className="text">Utility</span>
         </div>
         <div className="col">
-            <span className="title">Pages</span>
-            <span className="text">Home</span>
-            <span className="text">About</span>
-            <span className="text">Contact us</span>
+          <span className="title">Pages</span>
+          <span className="text">
+            <Link to="/">Home</Link>
+          </span>
+
+          <span className="text">
+            <Link to="/contact">Contact us</Link>
+          </span>
+
+          <span className="text">
+            <Link to="/products">Our Store</Link>
+          </span>
         </div>
       </div>
       <div className="bottom-bar">
         <div className="bottom-bar-content">
-            <div className="text">
+          <div className="text">
             © 2023 - Zippo Manufacturing Company - All rights reserved
-            </div>
-            <img src={payments} alt="" />
+          </div>
+          <img src={payments} alt="" />
         </div>
       </div>
     </footer>

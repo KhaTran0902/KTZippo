@@ -21,7 +21,10 @@
       }
       .text {
         flex-wrap: wrap;
-        color: rgba(0, 0, 0, 0.5);
+        
+        a{
+          color: rgba(0, 0, 0, 0.7);
+        }
       }
       .c-item {
         display: flex;
