@@ -5,7 +5,9 @@ export default function ProductPopular() {
   return (
     <>
       {Data.map((item) => (
-        <div className="products-card" key={item.id}>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000" className="products-card" key={item.id}>
           <div className="thumbnail">
             <Link to={`/products/${item.id}`}>
             <img src={item.img} />

@@ -24,7 +24,7 @@ export default function Products() {
         />
       </div>
           <div className="products-container">
-            <div className="sec-heading">Our Store</div>
+            <div className="sec-heading">Products</div>
             <CategoryFilter />
             <div className="products">
               {datafilter.map((product) => (

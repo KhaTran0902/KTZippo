@@ -51,7 +51,7 @@ export default function Header() {
             <li>Contact US</li>
           </Link>
           <Link to="/products">
-            <li>Products</li>
+            <li>Our Store</li>
           </Link>
           <span className="search-icon">
             <li>

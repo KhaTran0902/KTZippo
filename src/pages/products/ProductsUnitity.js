@@ -13,7 +13,7 @@ export default function ProductsUnitity () {
       </div>
         {/* <div className="category-title">Our Store</div> */}
         <div className="products-container">
-          <div className="sec-heading">Universal Zippo</div>
+          <div className="sec-heading">Unitity Zippo</div>
           <div className="products">
             {Unitity.map((product) => (
               <div className="products-card" key={product.id}>
